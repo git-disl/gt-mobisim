@@ -4,8 +4,6 @@ This is a mirror of https://code.google.com/archive/p/gt-mobisim/
 
 Simulator for generating mobility traces and query traces for large numbers of mobile agents moving in a road network.
 
-Simulator for generating mobility traces and query traces for large numbers of mobile agents moving in a road network.
-
 ### How to get gt-mobisim, along with source code, sample simulation configs & maps?
 
 1. QuickStart
