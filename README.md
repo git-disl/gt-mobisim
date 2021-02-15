@@ -62,3 +62,37 @@ http://gt-mobisim.googlecode.com/svn/trunk/jnlp/img/screenshot.png
 
 execution of client-side codes (ie. code that runs on simulated mobile users' phones)
 have a simulated server, or have simulated client-server communication
+
+### Prerequisites
+
+* Java 1.7+
+* Maven 3.2+
+
+### Build
+
+```
+$git clone https://github.com/git-disl/gt-mobisim.git 
+
+$cd gt-mobisim
+
+$mvn clean compile package
+```
+This will create an executable jar at `target/gt-mobisim-1.1-jar-with-dependencies.jar`
+
+### Run in Eclipse
+* Import gt-mobisim project into Eclipse
+
+`Eclipse -> File -> Import -> Existing Maven Projects`
+
+* Choose `Run Configurations`, select `gt-mobisim/edu.gatech.lbs.sim.Simulation` as the Main class. On the Arguments tab, put `configs/web-demo.xml` as Program arguments then run the Simulation.  
+
+### Run jar
+
+```
+$java -jar target/gt-mobisim-1.1-jar-with-dependencies.jar configs/test-tracegen.xml
+```
+Note that you can use any of the xml configuration files under `configs` directory as the program argument. You can modify the attribute values in a config file to run different simulations. During the simulation, the mobility traces are output to `configs/traces` directory.
+
+Maintained by others:
+1. https://github.com/binhmop/gt-mobisim
+
