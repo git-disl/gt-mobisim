@@ -62,3 +62,8 @@ http://gt-mobisim.googlecode.com/svn/trunk/jnlp/img/screenshot.png
 
 execution of client-side codes (ie. code that runs on simulated mobile users' phones)
 have a simulated server, or have simulated client-server communication
+
+### Maintained by others:
+
+- https://github.com/binhmop/gt-mobisim
+
